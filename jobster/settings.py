@@ -120,13 +120,13 @@ WSGI_APPLICATION = 'jobster.wsgi.application'
 
 DATABASES = {
      'default': {
-         'ENGINE': 'django.db.backends.mysql',
-         'NAME': 'mpower',
-         'USER': 'tejas',
-         'PASSWORD': 'djangompower',
-         'HOST': 'mpower-db.cwj8xtndrcdf.ap-south-1.rds.amazonaws.com',
-         'PORT': '3306',
-     }
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mpower',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
 }
 
 

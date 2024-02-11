@@ -801,10 +801,10 @@ def profile_completion(request, pk):
             resumeanalysis.jobseeker_id = jobseeker
             resumeanalysis.save()
 
-        save_resume_vector_matrix_thread = threading.Thread(target=save_resume_vector_matrix, args=(pk,))
-        save_resume_vector_matrix_thread.start()
-        job_suggestions_email_thread = threading.Thread(target=job_suggestion_email, args=(all_skills,loger,empls,jobseeker,request))
-        job_suggestions_email_thread.start()
+        # save_resume_vector_matrix_thread = threading.Thread(target=save_resume_vector_matrix, args=(pk,))
+        # save_resume_vector_matrix_thread.start()
+        # job_suggestions_email_thread = threading.Thread(target=job_suggestion_email, args=(all_skills,loger,empls,jobseeker,request))
+        # job_suggestions_email_thread.start()
         #job_suggestion_email(all_skills,loger,empls,jobseeker)
         ########################EMAIL########################################
         # matching_eid_list = []
